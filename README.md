@@ -8,21 +8,3 @@ Interact with the chatbot via a user-friendly web interface.
 Receive instant answers based on the dataset provided.
 
 Experience a lightweight and fast local chatbot solution.
-
-Frontend:
-
-HTML (for structure)
-
-CSS (for styling, including blur effects and corner-based "About Us" section)
-
-JavaScript (to handle user input and display bot responses dynamically)
-
-Backend:
-
-Python (Flask): For handling requests and processing logic
-
-Pandas: To read a .csv file containing questions and answers
-
-Data Handling:
-
-A CSV file acts as a mini database for storing predefined question-answer pairs.
