@@ -59,6 +59,10 @@ kb['clean_question'] = kb['question'].apply(clean_text)
 def index():
     return render_template('index.html')
 
+@app.route('/about us')
+def aboutus():
+    return render_template('about us.html')
+
 @app.route('/chat', methods=['POST'])
 def chat():
     user_msg = request.json.get("message", "")
