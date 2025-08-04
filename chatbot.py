@@ -7,13 +7,13 @@ app = Flask(__name__)
 data = {
     "question": [
         # Greetings
-        "hi", "hello", "hey", "how are you", "good morning", "good evening",
+        "hi", "hello", "hey", "how are you", "good morning", "good evening","what",
 
         # Informational
         "how to prepare for exams",
         "best programming language to learn",
         "how to improve english",
-        "what is flask in python",
+        "what is python",
         "how to build a website",
         "tips for time management",
         "how to improve programming logic",
@@ -29,12 +29,13 @@ data = {
         "I'm just a bot, but I'm doing great! How can I assist you?",
         "Good morning! What can I do for you?",
         "Good evening! Feel free to ask me something.",
+        "Sorry, I didn't understand that. Can you rephrase it?",
 
         # Informational responses
         "Make a timetable and revise regularly.",
         "Start with Python. Then JavaScript or C++.",
         "Read books, speak often, and use apps like Duolingo.",
-        "Flask is a micro web framework for Python. Great for small apps.",
+        "Python is a programming language used in backd-end ",
         "Learn HTML, CSS, JavaScript, and use Flask or Django for backend.",
         "Use calendars, set deadlines, and avoid multitasking.",
         "Practice solving problems and learn algorithms step by step.",
