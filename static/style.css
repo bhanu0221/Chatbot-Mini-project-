@@ -2,23 +2,30 @@ body {
     font-family: Arial, sans-serif;
     background: url("images/chatbot.jpg") no-repeat center center fixed;
     background-size: cover;
-     backdrop-filter: blur(5px); /* Standard */
     padding: 20px;
 }
 
 h2 {
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
+
 #chat-box {
     width: 100%;
     max-width: 600px;
     margin: auto;
-    background: rgba(238, 233, 233, 0.277);
+    background: rgba(238, 233, 233, 0.373);
     padding: 20px;
     border-radius: 10px;
     height: 400px;
     overflow-y: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.182);
+}
+#chat-box h4 {
+    color: rgb(191, 232, 237);
+    margin: 0;
 }
 
 .message {
@@ -42,7 +49,7 @@ h2 {
 }
 
 #input-area {
-    max-width: 600px;
+    max-width: 640px;
     margin: 20px auto;
     display: flex;
     gap: 10px;
@@ -69,31 +76,3 @@ button {
 button:hover {
     background-color: #005f99;
 }
-
-#about-us {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 280px;
-    background: #ffffff4f;
-    backdrop-filter: blur(6px);
-    border: 1px solid #dddddd7b;
-    border-radius: 12px;
-    padding: 15px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#about-us h3 {
-    margin-top: 0;
-    font-size: 18px;
-    color: #29303c;
-}
-
-#about-us p {
-    font-size: 14px;
-    color: #ffffff;
-    line-height: 1.5;
-}
-
