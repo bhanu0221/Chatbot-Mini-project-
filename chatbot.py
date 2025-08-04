@@ -4,7 +4,6 @@ import string
 
 app = Flask(__name__)
 
-# Expanded Q&A dataset with greetings and info questions
 data = {
     "question": [
         # Greetings
