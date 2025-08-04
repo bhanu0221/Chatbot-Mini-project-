@@ -7,9 +7,10 @@ app = Flask(__name__)
 data = {
     "question": [
         # Greetings
-        "hi", "hello", "hey", "how are you", "good morning", "good evening","what",
+        "hi", "hello", "hey", "how are you", "good morning", "good evening","good night","what","thanks",
 
         # Informational
+        "who build you?",
         "how to prepare for exams",
         "best programming language to learn",
         "how to improve english",
@@ -29,9 +30,12 @@ data = {
         "I'm just a bot, but I'm doing great! How can I assist you?",
         "Good morning! What can I do for you?",
         "Good evening! Feel free to ask me something.",
+        "Good night! take some rest.",
         "Sorry, I didn't understand that. Can you rephrase it?",
+        "your welcome.",
 
         # Informational responses
+        "Anup shahi Build me to assist you.",
         "Make a timetable and revise regularly.",
         "Start with Python. Then JavaScript or C++.",
         "Read books, speak often, and use apps like Duolingo.",

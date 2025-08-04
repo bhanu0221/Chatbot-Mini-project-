@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #9bbbeb, #2d4f73);
+}
+h2 {
+    display: inline-block;
+    background-color: bisque;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.about-container{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    display: inline-block;
+    background-color: bisque;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+.project-details {
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: aliceblue;
+}
