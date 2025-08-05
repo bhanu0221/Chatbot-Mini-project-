@@ -2,7 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to right, #9bbbeb, #2d4f73);
 }
-h2 {
+
+h2,
+h3 {
     display: inline-block;
     background-color: bisque;
     color: black;
@@ -10,18 +12,8 @@ h2 {
     border-radius: 15px;
 
 }
-.about-container{
-    text-align: center;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-}
-h3 {
-    display: inline-block;
-    background-color: bisque;
-    color: black;
-    padding: 5px;
-    border-radius: 15px;
-}
+
+.about-container,
 .project-details {
     text-align: center;
     color: white;
@@ -30,4 +22,21 @@ h3 {
 
 a {
     color: aliceblue;
+}
+
+/* Mobile styles (for screens less than 768px) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h2,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-container,
+    .project-details {
+        padding: 10px;
+    }
 }
