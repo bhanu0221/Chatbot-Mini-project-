@@ -117,4 +117,8 @@ button:hover {
         font-size: large;
         padding: 8px;
     }
+    img {
+        height: 40px; 
+        border-radius: 50%; 
+    }
 }
