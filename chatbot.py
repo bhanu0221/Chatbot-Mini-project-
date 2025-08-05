@@ -97,8 +97,8 @@ def chat():
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
-    is_local = os.environ.get("RAILWAY_STATIC_URL") is None  # Railway sets this
+    is_local = os.environ.get("RAILWAY_STATIC_URL") is None  # Railway sets this but i am using render 
     if is_local:
-        app.run(debug=True, port=5000)                     # if using in local computer
+        app.run(debug=True, port=5000)                     # using in local computer
     else:
         app.run(debug=True, host="0.0.0.0", port=port)

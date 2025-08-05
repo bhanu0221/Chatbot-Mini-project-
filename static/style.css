@@ -95,11 +95,11 @@ button:hover {
 @media screen and (max-width: 768px) {
     body {
         font-size: 16px;
-        padding: 10px;
+        padding: 15px;
     }
 
     #chat-box {
-        padding: 15px;
+        padding: 5px;
         height: 300px;
     }
 
