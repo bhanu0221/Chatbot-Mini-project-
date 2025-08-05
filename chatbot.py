@@ -96,6 +96,9 @@ def chat():
         return jsonify({"response": "Sorry, I didn't understand that. Can you rephrase it?"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
     port = int(os.environ.get("PORT", 5000))
-    app.run(debug=True, host="0.0.0.0", port=port)
+    is_local = os.environ.get("RAILWAY_STATIC_URL") is None  # Railway sets this
+    if is_local:
+        app.run(debug=True, port=5000)                     # if using in local computer
+    else:
+        app.run(debug=True, host="0.0.0.0", port=port)
